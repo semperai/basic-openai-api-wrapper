@@ -1,0 +1,4 @@
+faster-whisper==0.9.0
+Flask==2.3.3
+Flask-Cors==4.0.0
+TTS==0.19.1
