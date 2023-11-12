@@ -13,6 +13,8 @@ Instead of models or voices being dynamic, all responses use what is defined in 
 
 ## Setup
 
+**NOTE: ensure you are using python 3.11**
+
 open terminal and run:
 
 ```bash
@@ -31,7 +33,7 @@ open terminal and run:
 ```bash
 cd basic-openai-api-wrapper
 source venv/bin/activate
-python3 server.py
+flask run
 ```
 
 this will start server on port 5000

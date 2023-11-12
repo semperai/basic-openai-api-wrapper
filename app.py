@@ -5,7 +5,7 @@ from flask_cors import CORS
 from faster_whisper import WhisperModel
 from TTS.api import TTS
 
-whisper_model = "tiny.en"
+whisper_model = "base.en"
 
 # uncomment this to make higher quality, but slower
 # whisper_model = "base.en"
@@ -83,4 +83,5 @@ def speech():
         as_attachment=True
     )
 
-app.run()
+if __name__ == '__main__':
+    app.run()
